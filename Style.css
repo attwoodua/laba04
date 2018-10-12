@@ -1,0 +1,125 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width: 10px;
+	height: 10px;
+	background-color: lightblue;
+	position: relative;
+}
+
+.funnel{
+    background-color: #da9133;
+    width: 50px;
+    height: 60px;
+    position: relative;
+    top: -60px;
+    left: 300px;
+}
+
+.body{
+	background-color: #da9133;
+    width: 400px;
+    height: 545px;
+    position: relative;
+    top: 152px;
+    left: 197px;
+}
+
+.roof{
+	width: 402px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #901010;
+    top: -20px;
+    left: -50px;
+    position: relative;
+}
+
+.window,.window_2{
+    width: 100px;
+    height: 100px;
+    background-color: #00ceffb3;
+    position: relative;
+    top: 10px;
+    left: 45px;
+    border: solid #0000003b;
+    display: inline-block;
+    margin-right: 92px;
+
+}
+
+.porch_doorway{
+    width: 100px;
+    height: 85px;
+    background: #bd812a;
+    position: relative;
+    top: 12px;
+    left: 101px;
+}
+
+.porch,.porch_2{
+	width: 100px;
+    height: 85px;
+    background: #bd812a;
+    position: relative;
+    top: 12px;
+    left: 101px;
+    border: 7px solid #a26305;
+    border-top: transparent;
+    display: inline-block;
+    margin-left: -13px;
+}
+
+.footer{
+	width: 400px;
+    height: 24px;
+    position: relative;
+    background-color: #797979;
+    top: 16px;
+    left: 0px;
+}
+
+.door{
+	width: 100px;
+    height: 200px;
+    background-color: #752802;
+    position: relative;
+    top: 10px;
+    left: 252px;
+    border: 4px solid #a26305;
+}
+
+.doorpan{
+	width: 7px;
+    height: 20px;
+    /* border-radius: 50%; */
+    background-color: #ceaaaa;
+    position: relative;
+    top: 94px;
+    left: 84px;
+}
+
+.frame,.frame_2{
+    width: 100px;
+    height: 33px;
+    background-color: transparent;
+    position: relative;
+    top: 32px;
+    left: 0px;
+    border-bottom: solid #0000003b;
+    transform: rotate(90deg);
+}
+
+.grass{
+    height: 266px;
+    width: 1500px;
+    background-color: green;
+    position: relative;
+    top: 160px;
+    left: 0px;
+}
+
